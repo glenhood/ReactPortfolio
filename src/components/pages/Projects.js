@@ -8,7 +8,7 @@ import Project5 from '../styles/images/me.jpeg';
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 
-export default function Blog() {
+export default function Projects() {
   return (
 <Card style={{ width: '500px' }}>
   <Card.Img variant="top" src= { Project1 } />
@@ -26,7 +26,8 @@ export default function Blog() {
   </Card.Body>
 </Card>
   );
-}
+}{
+(
 <Card style={{ width: '500px' }}>
   <Card.Img variant="top" src= { Project1 } />
   <Card.Body>
@@ -42,3 +43,6 @@ export default function Blog() {
     <Button variant="primary">Link to site!</Button>
   </Card.Body>
 </Card>
+  );
+}
+
