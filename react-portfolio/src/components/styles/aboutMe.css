@@ -1,0 +1,38 @@
+.about {
+    background-color: black;
+    color: white;
+    font-family: chalkduster;
+    font-size: 50px;
+    /* padding-top: 50px; */
+    text-align: center;
+}
+.main {
+    height: 1000px;
+    width: 100%;
+    background-image: url(./images/coding.jpeg);
+    background-size:100% 100%;
+}
+.me {
+    margin-top: 100px;
+    width: 20%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+    transition: all 0.25s ease;
+    
+}
+.me:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+.para {
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    /* padding-top: 50px; */
+    text-align: center;
+    margin-top: 100px;
+}
