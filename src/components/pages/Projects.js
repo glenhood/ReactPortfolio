@@ -7,6 +7,7 @@ import { Card, CardGroup, Row, Button } from 'react-bootstrap';
 
 export default function Projects() {
   return (
+<div className="page">
 <Row lgxx={3} className="g-3">
 <CardGroup>
   <Card>
@@ -27,7 +28,7 @@ export default function Projects() {
     <Card.Body>
       <Card.Title>CryptoCorner</Card.Title>
       <Card.Text>
-        An educational site for the beginner Cryto trader. Uses 3rd Party API's for realtime crypto information
+        An educational site for the beginner Crypto trader. Uses 3rd Party API's for realtime Crypto information
       </Card.Text>
       <Button href="https://glenhood.github.io/Project-1/" variant="primary">Link to site!</Button>
     </Card.Body>
@@ -50,5 +51,5 @@ export default function Projects() {
   </Card>
 </CardGroup>
 </Row>
-
+</div>
   )}
