@@ -1,42 +1,44 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Project1 from '../styles/images/2.png';
+import Project2 from '../styles/images/me.jpeg';
+import Project3 from '../styles/images/me.jpeg';
+import Project4 from '../styles/images/me.jpeg';
+import Project5 from '../styles/images/me.jpeg';
+import { Card } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 export default function Blog() {
   return (
-    <div id="work">
-            <h1>My Projects</h1>
-            <div id="card-holder">
-                <div class="project-card" id="main-project">
-                    <div>
-                        <h2>Meet Up</h2>
-                        <p>Sequelize/Handlebars</p>
-                    </div>
-                    <div href="https://uta-meet-up.herokuapp.com/"><img src="assets/images/2.png" alt="Meet Up"></a>
-                </div>
-                <div class="project-card">
-                    <div>
-                        <h2>Crypto Corner</h2>
-                        <p>JavaScript/API</p>
-                    </div>
-                    <div href="https://glenhood.github.io/Project-1/"><img src="assets/images/1.png" alt="Crypto Corner"></a>
-                </div>
-                <div class="project-card">
-                    <div>
-                        <h2>Weather Dashboard</h2>
-                        <p>JavaScript/API</p>
-                    </div>
-                    <div href="https://glenhood.github.io/Weather-Dashboard/"><img src="assets/images/3.png 21-23-19-185.png" alt="Weather Dashboard"></a>
-                </div>
-                <div class="project-card">
-                    <div>
-                        <h2>Employee Database</h2>
-                        <p>MERN Stack</p>
-                    </div>
-                    <div href="https://github.com/glenhood/Dallas-Cowboys-Team-Tracker"><img src="assets/images/3.gif" alt="Team Tracker"></a>
-                </div>
-                <div class="project-card">
-                    <div>
-                        <h2>Note Taker</h2>
-                        <p>MERN Stack</p>
-                    </div>
-                    <div href="https://note-taker7777.herokuapp.com/"><img src="assets/images/11-express-homework-demo-01.png" alt="Note Taker"></a>
-                </div>
+<Card style={{ width: '500px' }}>
+  <Card.Img variant="top" src= { Project1 } />
+  <Card.Body>
+    <Card.Title>Meet Up!</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Link to site!</Button>
+  </Card.Body>
+</Card>
+  );
+}
+<Card style={{ width: '500px' }}>
+  <Card.Img variant="top" src= { Project1 } />
+  <Card.Body>
+    <Card.Title>Meet Up!</Card.Title>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Card.Text>
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </Card.Text>
+    <Button variant="primary">Link to site!</Button>
+  </Card.Body>
+</Card>
