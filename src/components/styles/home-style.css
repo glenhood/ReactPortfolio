@@ -1,18 +1,25 @@
 @font-face {
-    font-family: "Determination";
-    src: local("Determination"),
-     url("./fonts/Determination.ttf") format("truetype");
-    font-weight: bold;
     font-family: "Wandhen";
     src: local("Wandhen"),
      url("./fonts/Wandhen.ttf") format("truetype");
     font-weight: bold;
-
+    }
+@font-face {
+    font-family: "Determination";
+    src: local("Determination"),
+    url("./fonts/Determination.ttf") format("truetype");
+    font-weight: bold;
+    }
+@font-face {
+    font-family: "Chalkduster";
+    src: local("Chalkduster"),
+    url("./fonts/Chalkduster.ttf") format("truetype");
+    font-weight: bold;
     }
 
 .hello {
     color: black;
-    font-family: chalkduster;
+    font-family: Chalkduster;
     font-size: 100px;
     padding-top: 50px;
     margin-left: 450px;
