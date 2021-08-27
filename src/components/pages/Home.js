@@ -1,6 +1,11 @@
 import React from 'react';
 import '../styles/home-style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/fonts/Determination.ttf';
+import '../styles/fonts/Wandhen.ttf';
+
+
+
 
 export default function Home() {
   return (
