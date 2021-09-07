@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Project1 from '../styles/images/2.png';
 import Project2 from '../styles/images/1.png';
 import Project3 from '../styles/images/3.png';
+import '../styles/projects.css';
 import { Card, CardGroup, Row, Button } from 'react-bootstrap';
 
 export default function Projects() {
@@ -39,11 +40,11 @@ export default function Projects() {
   <Card>
     <Card.Img variant="top" src={ Project3 } />
     <Card.Body>
-      <Card.Title>Band Mates (coming soon!)</Card.Title>
+      <Card.Title>Band Mates</Card.Title>
       <Card.Text>
         A social media platform that connects musicians with other musicians, looking to either start a band or perform at a gig.
       </Card.Text>
-      <Button href="" variant="primary">Link to site!</Button>
+      <Button href="https://band--mates.herokuapp.com/" variant="primary">Link to site!</Button>
     </Card.Body>
     <Card.Footer>
       <small className="text-muted">React</small>
